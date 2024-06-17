@@ -1,0 +1,80 @@
+@import "../../theme.scss";
+#contacts.section {
+  display: flex;
+  padding: 0;
+  .section-photo {
+    flex: 1;
+    img {
+      width: 100%;
+      height: 650px;
+      object-fit: cover;
+      opacity: 0.8;
+    }
+  }
+  .section-desc {
+    margin-top: 1rem;
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .title {
+      font-family: Italiana;
+      color: $olive-green-0;
+      width: fit-content;
+    }
+    .subtitle {
+      margin-top: 2rem;
+      text-align: end;
+      p {
+        font-weight: 300;
+        font-size: clamp(1rem, 0.7928rem + 0.884vw, 1.5rem);
+      }
+    }
+    .section-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+      .contacts-section {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        width: -moz-fit-content;
+        width: fit-content;
+        gap: 2rem;
+        flex: 1;
+        .contact-item {
+          color: $olive-green-0;
+          display: flex;
+          flex-direction: row;
+          justify-content: start;
+          align-items: center;
+          gap: 1rem;
+          label {
+            font-size: clamp(1rem, 0.8267rem + 0.7396vw, 1.3rem);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .section {
+    flex-direction: column;
+    .section-photo img {
+      height: 400px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section {
+    flex-direction: column;
+    .section-desc {
+      margin-top: 2rem;
+    }
+  }
+}
