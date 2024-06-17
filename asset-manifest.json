@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/psyco-girl/static/css/main.52d101e6.css",
+    "main.js": "/psyco-girl/static/js/main.d9f30cdd.js",
+    "static/js/787.3bda04f9.chunk.js": "/psyco-girl/static/js/787.3bda04f9.chunk.js",
+    "static/media/37.jpg": "/psyco-girl/static/media/37.8f49948efb9e4a0c8662.jpg",
+    "static/media/14.jpg": "/psyco-girl/static/media/14.66b0f7924dfdd4808ec2.jpg",
+    "static/media/6.jpg": "/psyco-girl/static/media/6.7048b3f9524b1583c943.jpg",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/psyco-girl/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/Spectral-Bold.ttf": "/psyco-girl/static/media/Spectral-Bold.79f938afd3444ee07b82.ttf",
+    "static/media/Spectral-SemiBold.ttf": "/psyco-girl/static/media/Spectral-SemiBold.0b678d70bc55d8934092.ttf",
+    "static/media/Spectral-Light.ttf": "/psyco-girl/static/media/Spectral-Light.cf0847d6be5ff1027f7d.ttf",
+    "static/media/Spectral-Regular.ttf": "/psyco-girl/static/media/Spectral-Regular.d42b6921428e94a0c610.ttf",
+    "static/media/Spectral-ExtraLight.ttf": "/psyco-girl/static/media/Spectral-ExtraLight.46c0c01bb8b92cac6aae.ttf",
+    "static/media/Roboto-Medium.ttf": "/psyco-girl/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Thin.ttf": "/psyco-girl/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
+    "static/media/Roboto-Regular.ttf": "/psyco-girl/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Black.ttf": "/psyco-girl/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
+    "static/media/Roboto-Bold.ttf": "/psyco-girl/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/Roboto-Light.ttf": "/psyco-girl/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/England.ttf": "/psyco-girl/static/media/England.48258d884e2d1eabb011.ttf",
+    "static/media/Italiana-Regular.ttf": "/psyco-girl/static/media/Italiana-Regular.2d0e370dde5190d0d6a0.ttf",
+    "index.html": "/psyco-girl/index.html",
+    "main.52d101e6.css.map": "/psyco-girl/static/css/main.52d101e6.css.map",
+    "main.d9f30cdd.js.map": "/psyco-girl/static/js/main.d9f30cdd.js.map",
+    "787.3bda04f9.chunk.js.map": "/psyco-girl/static/js/787.3bda04f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52d101e6.css",
+    "static/js/main.d9f30cdd.js"
+  ]
+}
