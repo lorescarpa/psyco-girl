@@ -1,0 +1,134 @@
+@import "../../theme.scss";
+@keyframes swipe-in {
+  0% {
+    opacity: 0;
+    right: -180px;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+  }
+}
+
+@keyframes swipe-out {
+  0% {
+    opacity: 1;
+    right: 0;
+  }
+  100% {
+    opacity: 0;
+    right: -180px;
+  }
+}
+
+.navbar-container {
+  .gradient {
+    background-color: #00000075;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.navbar-links-logo {
+  font-family: "England";
+  color: $grey-w;
+  user-select: none;
+  cursor: default;
+  h3 {
+    font-size: clamp(3rem, 2.3785rem + 2.6519vw, 4.5rem);
+  }
+  h5 {
+    margin-right: clamp(-1.5rem, -1.0856rem + -1.768vw, -2.5rem);
+    font-size: clamp(1rem, 0.1713rem + 3.5359vw, 3rem);
+  }
+}
+
+.navbar-link {
+  a {
+    font-family: Montsterrat;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: $grey-w;
+    text-decoration: none;
+  }
+  &:hover {
+    transition: 150ms;
+    transform: scale(1.1);
+  }
+}
+
+.menu-icon {
+  padding-right: 3rem;
+  color: $grey-w;
+  cursor: pointer;
+}
+
+.navbar-links {
+  padding: 0 3rem;
+  flex: 1;
+}
+
+.navbar-links-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  height: 100px;
+}
+
+.navbar-links-container-menu {
+  animation: swipe-in 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: end;
+  padding: 6rem 2rem;
+  gap: 1rem;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+  height: calc(100% - 50px);
+  width: 100%;
+  background: linear-gradient(
+    -90deg,
+    $olive-green-0 0%,
+    rgba(57, 71, 52, 0.7) 65%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.close {
+  animation: swipe-out 0.5s;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.navbar-links-container-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1035px) {
+  .navbar-container {
+    height: 50px;
+  }
+  .navbar-links-container {
+    display: none;
+  }
+  .navbar-links-container-menu {
+    display: flex;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .navbar-links {
+    padding: 0 1rem;
+  }
+  .menu-icon {
+    padding-right: 1rem;
+  }
+}

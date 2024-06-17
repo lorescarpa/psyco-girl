@@ -1,0 +1,78 @@
+@import "../../theme.scss";
+#home {
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  .header-photo {
+    flex: 1;
+    img {
+      width: 100%;
+      height: 650px;
+      object-fit: cover;
+      object-position: top;
+      opacity: 0.8;
+      filter: brightness(1.2);
+    }
+  }
+  .header-desc {
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    .title {
+      font-family: Italiana;
+      color: $olive-green-0;
+      width: fit-content;
+      box-shadow: 0 5px 5px -6px $olive-green-0;
+      .head-1 h1 {
+        text-align: end;
+        font-size: clamp(2.5rem, 1.3444rem + 4.9307vw, 4.5rem);
+        font-weight: 700;
+        span {
+          font-size: clamp(1.2rem, 1.0099rem + 1.2376vw, 2rem);
+        }
+      }
+      .head-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        h2 {
+          font-family: Montsterrat;
+          font-size: clamp(1.3rem, 1.0099rem + 1.2376vw, 2rem);
+          font-weight: 300;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .subtitle {
+      margin-top: 2rem;
+      text-align: end;
+      p {
+        font-weight: 300;
+        font-size: clamp(1rem, 0.7928rem + 0.884vw, 1.5rem);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .header {
+    flex-direction: column;
+    .header-photo img {
+      height: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    .header-desc {
+      margin-top: 2rem;
+    }
+  }
+}
